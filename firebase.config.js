@@ -11,14 +11,7 @@ import { initializeApp } from "firebase/app";
 //auth import step 1 
 import {getAuth} from "firebase/auth";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyCmEd2Fm6kbB-l3Pj_2NSW9zEx1qg5bg2k",
-  authDomain: "chatappclone-dc553.firebaseapp.com",
-  projectId: "chatappclone-dc553",
-  storageBucket: "chatappclone-dc553.appspot.com",
-  messagingSenderId: "665545943366",
-  appId: "1:665545943366:web:604319dc7bb5c815375d47"
-};
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
